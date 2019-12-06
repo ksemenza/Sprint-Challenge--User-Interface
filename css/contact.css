@@ -69,6 +69,7 @@ p {
 .container-contact {
     width: 800px;
     margin: 0 auto;
+
 }
 
 header {
@@ -141,7 +142,15 @@ form {
     display: flex;
     flex-direction: column;
     padding: 5% 10%;
+    border: 3px solid black;
     
+}
+
+h1 {
+    font-size: 32px;
+    text-decoration: overline underline;
+    font-weight: bolder;
+    margin-bottom: 5%;
 }
 
 .nameEntry, .emailEntry, .phoneEntry, .referalEntry, .otherEntry, .commetEntry {
@@ -151,9 +160,22 @@ form {
     width: 50%;
 }
 
+.personalInfo {
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+
+}
+.referalInfo {
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 label {
     margin-bottom: 3% ;
+    font-weight: bold;
 }
 
 input {
