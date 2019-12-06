@@ -67,3 +67,141 @@ p {
 }
 
 /*Coding starts here*/
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: inline-flex;
+    flex-direction: row;
+    width: 725px;
+    margin-top: 2%;
+    margin-left: 2%;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+}
+
+#topNav {
+    margin-top: 3%;
+   display:flex;
+   flex-direction: row;
+}
+
+#topNav a{
+    padding: 0 39px;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#about-html {
+font-weight: bolder;
+}
+
+#index-html:hover {
+    color: rgb(179, 14, 14);
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+#products-html:hover {
+    color: rgb(179, 168, 28);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#blog-html:hover {
+    color: rgb(12, 99, 12);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#contact-html:hover {
+    color: rgb(13, 13, 138);
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+
+.topImg {
+    padding: 3% 0;
+
+
+}
+
+.topContent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: space-between;
+
+}
+.middleContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: space-between;
+
+
+
+}
+
+.boxInfo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dotted black;
+}
+
+.boxInfo h5{
+    margin-top:7% ;
+}
+
+.learn {
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 7%;
+	border:1px solid black;
+	padding: 2.25% 9.5%;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	background-color: white;
+    border-radius: 6%;
+    width: 37%;
+}
+
+.bottomContent{
+    margin-top: 5%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    margin-top: 5%;  
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
