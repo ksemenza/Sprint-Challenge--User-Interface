@@ -1,0 +1,17 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is a primitive way of implementing structure as well as design.
+
+Name two big differences between display: block; and display: inline;.
+
+Block breaks off at the end of element and extends the full width available while inline is created within the element's axis and width is defined by its tag.  
+Block is assoicated with elements like <div> the spereates the elements with an axis
+while inline is assoicated with the element <span> with the elements remaining on the same axis as other elements 
+
+What are the 4 areas of the box model?
+Margin Border Padding Content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+cross axis
+
+Explain why git is valuable to a team of developers.
+git allows many people to work and update a project simultaneously.  It also logs a history of each code update allowing you to look at previous versions.

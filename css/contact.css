@@ -66,9 +66,10 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container-contact {
     width: 800px;
     margin: 0 auto;
+
 }
 
 header {
@@ -98,9 +99,16 @@ header {
 
 }
 
-#index-html {
+#contact-html {
     font-weight: bolder;
     }
+
+#index-html:hover {
+    color: rgb(179, 14, 14);
+    font-size: 16px;
+    font-weight: bolder;
+
+}
 
 #about-html:hover {
     color: rgb(218, 150, 25);
@@ -120,113 +128,73 @@ header {
     font-weight: bolder;
 }
 
-#contact-html:hover {
-    color: rgb(13, 13, 138);
-    font-size: 16px;
-    font-weight: bolder;
 
-}
 
 .topImg {
-    padding: 3% 0;
-
-}
-
-.top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    width: 100%;
+    height: 200px;
+    margin: 5% auto;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+form {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5% 10%;
+    border: 3px solid black;
+    
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+h1 {
+    font-size: 32px;
+    text-decoration: overline underline;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.nameEntry, .emailEntry, .phoneEntry, .referalEntry, .otherEntry, .commetEntry {
+    margin: 1% 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    width: 50%;
 }
 
-#box1{
-    background-color: teal;
-}
-
-#box2{
-    background-color: gold;
-}
-
-#box3{
-    background-color: cadetblue;
-}
-
-#box4{
-    background-color: coral;
-}
-
-#box5{
-    background-color: crimson;
-}
-
-#box6{
-    background-color: forestgreen;
-}
-
-#box7{
-    background-color: darkorchid;
-}
-
-#box8{
-    background-color:hotpink;
-}
-
-#box9{
-    background-color: indigo;
-}
-
-#box10{
-    background-color: dodgerblue;
-}
-
-
-.bottom-content {
+.personalInfo {
+    padding-bottom: 3%;
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-direction: column;
+
+}
+.referalInfo {
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+
+label {
+    margin-bottom: 3% ;
+    font-weight: bold;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+input {
+    height: 28px;
 }
+
+select {
+    height: 28px;
+}
+
+#referalOther {
+    width: 100%;
+}
+
+.submitButton {
+    width: 20%;
+    height: 35px;
+}
+
 
 footer {
     width: 100%;
