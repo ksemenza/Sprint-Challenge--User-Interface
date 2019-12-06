@@ -66,4 +66,133 @@ p {
     line-height: 1.4;
 }
 
-/*Coding starts here*/
+.container-contact {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: inline-flex;
+    flex-direction: row;
+    width: 725px;
+    margin-top: 2%;
+    margin-left: 2%;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+}
+
+#topNav {
+    margin-top: 3%;
+   display:flex;
+   flex-direction: row;
+}
+
+#topNav a{
+    padding: 0 39px;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#contact-html {
+    font-weight: bolder;
+    }
+
+#index-html:hover {
+    color: rgb(179, 14, 14);
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+#about-html:hover {
+    color: rgb(218, 150, 25);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#products-html:hover {
+    color: rgb(179, 168, 28);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#blog-html:hover {
+    color: rgb(12, 99, 12);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+.topImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    margin: 5% auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    
+}
+
+.nameEntry, .emailEntry, .phoneEntry, .referalEntry, .otherEntry, .commetEntry {
+    margin: 1% 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+label {
+    margin-bottom: 3% ;
+}
+
+input {
+    height: 28px;
+}
+
+select {
+    height: 28px;
+}
+
+#referalOther {
+    width: 100%;
+}
+
+.submitButton {
+    width: 20%;
+    height: 35px;
+}
+
+
+footer {
+    width: 100%;
+    background: black;
+  
+    
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
